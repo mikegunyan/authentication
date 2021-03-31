@@ -1,11 +1,17 @@
 # Authentication
--- run the folliwing in the terminal
 
-  ## Install dependencies
-  npm install
-
-  ## Create .env file and assign the following variable
+  ## Before we begin
+  ### Create .env file and assign the following variable
   SESSION_SECRET=??
 
-  ## start server
+  ### Fix express
+  -Navigate to node_modules/express/lib/application.js
+  -replace all 'views' instances with 'public'
+
+
+  ## run the folliwing in the terminal
+  ### Install dependencies
+  npm install
+
+  ### start server
   npm start
