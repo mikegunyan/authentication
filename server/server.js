@@ -34,7 +34,7 @@ initializePassport(
   }
 )
 
-app.set('view-engine', 'ejs')
+app.set('view-engine', 'html')
 app.use(express.urlencoded({ extended: false }))
 app.use(flash())
 app.use(session({
